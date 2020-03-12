@@ -1,0 +1,49 @@
+.grid-testimonials {
+    display: grid;
+
+    grid-column-gap: 60px;
+    grid-row-gap: 60px;
+
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+
+        .box1 { 
+            grid-area: 1 / 1 / 2 / 2; 
+        }
+        
+        .box2 { 
+            grid-area: 1 / 2 / 2 / 3; 
+        }
+    }
+
+}
+
+.quotation {
+    position: relative;
+    padding-left: 70px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+
+    @media (min-width: 768px) {
+        min-height: 120px;
+    }
+
+    &:before {
+        position: absolute;
+        content: '';
+        background: url("/images/icons/quote-dark.svg");
+        width: 48px;
+        height: 48px;
+        background-size: 48px 48px;
+        top: 0;
+        left: 0;
+        background-repeat: no-repeat;
+    }
+}
+    
+.quote-person {
+    color: #CCCCCC;
+    padding-left: 70px;
+}

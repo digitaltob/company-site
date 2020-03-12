@@ -1,7 +1,15 @@
 .site-head {
   &__site-name {
-    font-weight: 700;
+    font-weight: 300;
     text-decoration: none;
-    color: var(--color-text);
+    color: var(--color-light);
+    @include apply-utility('font', 'serif');
   }
+}
+
+.logo-header {
+  background-image: url('/images/logo/red-spark-digital-heading-logo.png');
+  background-size: 66px 60.5px;
+  padding-left: 70px;
+  background-repeat: no-repeat;
 }

@@ -50,9 +50,11 @@ hr {
 @import 'utilities/wrapper';
 
 // Components
+@import 'components/brands';
 @import 'components/button';
 @import 'components/heading-permalink';
 @import 'components/intro';
+@import 'components/home-services';
 @import 'components/nav';
 @import 'components/pagination';
 @import 'components/post';
@@ -61,4 +63,5 @@ hr {
 @import 'components/site-foot';
 @import 'components/skip-link';
 @import 'components/syntax-highlighting';
+@import 'components/testimonials';
 @import 'components/video-player';
