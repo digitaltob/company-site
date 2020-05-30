@@ -1,15 +1,23 @@
 .button {
   display: inline-block;
   border: none;
-  background-color: var(--color-action-bg);
-  color: var(--color-action-text);
   padding: get-size(300) get-size('base');
   line-height: 1;
-  margin: 0;
+  margin: 20px 0;
   text-decoration: none;
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
+
+  &.primary {
+    background-color: var(--color-action-primary-bg);
+    color: var(--color-action-primary-text);
+  }
+
+  &.secondary {
+    background-color: var(--color-action-secondary-bg);
+    color: var(--color-action-secondary-text); 
+  }
 }
 
 .button:hover,

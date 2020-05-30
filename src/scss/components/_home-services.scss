@@ -23,7 +23,10 @@ box-shadow: 0px 0px 38px -17px rgba(0,0,0,0.75);
     .box1 {
         position: relative;
         overflow: hidden;
-        padding-left: 190px;
+
+        @media (min-width: 992px) {
+            padding-left: 190px;
+        }
       
         &:before {
             position: absolute;
@@ -42,7 +45,10 @@ box-shadow: 0px 0px 38px -17px rgba(0,0,0,0.75);
     .box2 {
         position: relative;
         overflow: hidden;
-        padding-left: 190px;
+
+        @media (min-width: 992px) {
+            padding-left: 190px;
+        }
       
         &:before {
             position: absolute;
@@ -61,7 +67,10 @@ box-shadow: 0px 0px 38px -17px rgba(0,0,0,0.75);
     .box3 {
         position: relative;
         overflow: hidden;
-        padding-left: 190px;
+        
+        @media (min-width: 992px) {
+            padding-left: 190px;
+        }
       
         &:before {
             position: absolute;
@@ -80,7 +89,10 @@ box-shadow: 0px 0px 38px -17px rgba(0,0,0,0.75);
     .box4 {
         position: relative;
         overflow: hidden;
-        padding-left: 190px;
+        
+        @media (min-width: 992px) {
+            padding-left: 190px;
+        }
       
         &:before {
             position: absolute;
@@ -99,7 +111,10 @@ box-shadow: 0px 0px 38px -17px rgba(0,0,0,0.75);
     .box5 {
         position: relative;
         overflow: hidden;
-        padding-left: 190px;
+        
+        @media (min-width: 992px) {
+            padding-left: 190px;
+        }
       
         &:before {
             position: absolute;
@@ -118,7 +133,10 @@ box-shadow: 0px 0px 38px -17px rgba(0,0,0,0.75);
     .box6 {
         position: relative;
         overflow: hidden;
-        padding-left: 190px;
+        
+        @media (min-width: 992px) {
+            padding-left: 190px;
+        }
       
         &:before {
             position: absolute;
